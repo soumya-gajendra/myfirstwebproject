@@ -1,3 +1,4 @@
+// This the code mouse cursor trackeinging in the background light will go their where the mouseciusor will go
 var cursor=document.querySelector('#light');
 var text=document.querySelector('.heading');
 document.addEventListener ('mousemove',function(e){
@@ -6,6 +7,7 @@ document.addEventListener ('mousemove',function(e){
     cursor.style.left= x + 'px'
     cursor.style.top = y +'px'
 })
+//This the code of the tranprant card in which the summery written 
 // const target = document.querySelectorAll('info');
 // const targetmove = (x,y) => `perspecttive(500px) scale(1.1) rotateX(${x}deg) rotateY(${y}deg)`
 // target.forEach(info =>{
@@ -23,6 +25,7 @@ document.addEventListener ('mousemove',function(e){
 //      })
 //   info.addEventListener('mouseout',() => p.style.transfrom = targetmove(0,0))
 // })
+//This is the libery use for the  tranperent card animation in which summery written
 var VanillaTilt = (function () {
    'use strict';
    
@@ -524,3 +527,46 @@ var VanillaTilt = (function () {
    return VanillaTilt;
    
    }());
+// This the code for the fetching data from the json file  
+const list = document.querySelector('.products');
+fetch('./data.json')
+ .then(res => res.json())
+ .then(data => {
+  data.forEach( post => {
+    list.insertAdjacentHTML('beforeend',` <div class="pop">
+               <p class="title">${post.Episode}</p>
+               <p class="description">${post.date}</p>
+              </div>`)
+  })
+ })
+// .then(function(data){
+//    let placeholder = document.querySelector(".episode");
+//    let out = "";
+//    for(let pro of data){
+//       out += `
+       
+      
+//         <p class="text">${product.photo}</p>
+      
+//       `;
+//    }
+ 
+//    placeholder.innerHTML = out;
+// });
+// let http = new XMLHttpRequest();
+// http.open('get', 'data.json', true);
+// http.send();
+// http.onload = function(){
+//    if(this.readyState == 4 && this.status == 200){
+//       let products = JSON.parse(this.responseText);
+//       let output = "";
+      
+//          output += `
+//             <div class="product">
+//                <img src="${item.photo}">
+//             </div>
+//          `;
+      
+     //document.getElementById("products").innerHTML = `haloo jshdiuQ  ${4+4} uiuueci`;
+//    }
+// }
