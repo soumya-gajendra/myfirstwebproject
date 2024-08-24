@@ -2,21 +2,28 @@
 margin: 0;
   padding: 0;
   box-sizing: border-box;
-}body{
+}
+body{
   min-height: 100vh;
   background: black;
-  overflow:hidden;
+ 
+  
+} 
+body::-webkit-scrollbar{
+  
+ display:none;
+  
 } .container{
   position:relative;
     height: 100vh;
-    overflow:hidden;
+    
   
 }
 .bachground{
   position:fixed;
 z-index: 1;
   top: -4vmax;
-  background-attachment: fixed;
+ 
   
  
 }
@@ -51,7 +58,7 @@ z-index: 1;
   pointer-events: none;
 
 }#light{
-  position:absolute;
+  position:fixed;
   top:0;
   left: 0;
   width: 100px;
@@ -82,13 +89,13 @@ z-index: 1;
    
  }
  .info{
-  position:relative;
+  position:absolute;
   background-color:rgba(255,255,255,.1);
   border:2px solid rgba(255,255,255,.2);
   backdrop-filter: blur(2px);
   width: 64vmax;
   height:22vmax;
-  top:-15vmax;
+  top:8vmax;
   left:10vmax;
   border-radius: 10px;
   cursor: pointer;
@@ -175,37 +182,264 @@ z-index: 1;
     transform: translate3d(-5%,8%,670px);
   }
   .pipi{
-   position: relative;
+   position:absolute;
    left: 75vmax;
-   top:-45vmax;
+   top:-1vmax;
   }
   .products{
    position: relative;
    padding-top:1% ; 
-  
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-    flex-direction:column;
-    top: 50%;
-   
+   flex-direction:column;
+   top: 50%;
    }
-  .pop{
-  top: 50%;
+  .products .pop{
+   position: relative;
+   top: 50%;
    margin-top:0.5%;
    margin-left: 1%;
    z-index: 2;
+   background-color:rgba(255,255,255,.1);
+   border:2px solid rgba(255,255,255,.2);
+   backdrop-filter: blur(2px);
+   border-radius: 10px;
+   cursor: pointer;
+   transform-style: preserve-3d;
+   
    
   }
+ 
+  .products .pop:nth-child(1){
+    width: 30vmax;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    
+  }
+  .products .pop:nth-child(2){
+    left:1vmax;
+   
+    padding: 3%;
+    width: 30vmax;
+    --line-height: 1.5;
+  --lines-to-show: 5;
+  line-height: var(--line-height);
+  overflow: hidden;
+  height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+   
+    
+    }
+  .products .pop:nth-child(3){
+     padding: 3%;
+     --line-height: 1.5;
+     --lines-to-show: 5;
+     line-height: var(--line-height);
+     overflow: hidden;
+     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(4){
+    top:1vmax;
+    padding:3%;
+    height: 25vmax;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+        
+      }
+  .products .pop:nth-child(5){
+    padding: 2%;
+    height: 10vmax;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(6){
+         padding:2%;
+         height: 30vmax;
+         --line-height: 1.5;
+         --lines-to-show: 5;
+         line-height: var(--line-height);
+         overflow: hidden;
+         height: calc(var(--line-height) * var(--lines-to-show) * 1em); 
+    }
+  .products .pop:nth-child(7){
+          padding:3%;
+          --line-height: 1.5;
+          --lines-to-show: 5;
+          line-height: var(--line-height);
+          overflow: hidden;
+          height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(8){
+          padding:3%;
+          width:32vmax;
+          --line-height: 1.5;
+          --lines-to-show: 5;
+          line-height: var(--line-height);
+          overflow: hidden;
+          height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(9){
+    padding:3%;
+    height: 9vmax;
+    width: 31vmax;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);      
+    }
+  .products .pop:nth-child(10){
+          padding: 3%;
+          --line-height: 1.5;
+          --lines-to-show: 5;
+          line-height: var(--line-height);
+          overflow: hidden;
+          height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(11){
+          padding: 3%;
+          width: 31vmax;
+          --line-height: 1.5;
+          --lines-to-show: 5;
+          line-height: var(--line-height);
+          overflow: hidden;
+          height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
   
+  .products .pop:nth-child(12){
+          padding:3%;
+          --line-height: 1.5;
+          --lines-to-show: 5;
+          line-height: var(--line-height);
+          overflow: hidden;
+          height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(13){
+    padding:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(14){
+    padding:3%;
+    height: 9vmax;
+    width: 32vmax;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }      
+  .products .pop:nth-child(15){
+    padding:3%;
+    height: 11vmax;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(16){
+    padding:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(17){
+    padding:3%;
+    height: 11vmax;
+    width: 32vmax;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(18){
+    padding:3%;
+    height: 10vmax;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(19){
+    padding:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(20){
+    padding:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(21){
+    padding:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(22){
+    padding:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(23){
+    padding:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
+  .products .pop:nth-child(24){
+    padding:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    }
   .pop p{
   color:rgb(243, 237, 237);
  
-   background-color: purple;
+ 
    position:relative;
+   
    width: 30vmax;
    
    
   }
+  
+    
+ 
+  
+ 
+  
   
 
 

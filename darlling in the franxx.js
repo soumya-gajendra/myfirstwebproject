@@ -534,8 +534,9 @@ fetch('./data.json')
  .then(data => {
   data.forEach( post => {
     list.insertAdjacentHTML('beforeend',` <div class="pop">
-               <p class="title">${post.Episode}</p>
-               <p class="description">${post.date}</p>
+               <p class="title">EPISODE:- ${post.Episode}</p>
+               <p class="description">DATE:- ${post.date}</p>
+               <p class="summer">SUMMERY:- ${post.summery}</p>
               </div>`)
   })
  })
