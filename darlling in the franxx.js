@@ -533,11 +533,17 @@ fetch('./data.json')
  .then(res => res.json())
  .then(data => {
   data.forEach( post => {
-    list.insertAdjacentHTML('beforeend',` <div class="pop">
+    list.insertAdjacentHTML('beforeend',`
+      
+      <div class="pop">
+               <button class="box" type="button">More</button>
+               <div class="data">
                <p class="title">EPISODE:- ${post.Episode}</p>
                <p class="description">DATE:- ${post.date}</p>
                <p class="summer">SUMMERY:- ${post.summery}</p>
-              </div>`)
+               </div>
+              </div>
+              `)
   })
  })
 // .then(function(data){

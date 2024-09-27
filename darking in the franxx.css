@@ -211,229 +211,312 @@ z-index: 1;
   }
  
   .products .pop:nth-child(1){
-    width: 30vmax;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     
   }
   .products .pop:nth-child(2){
-    left:1vmax;
-   
-    padding: 3%;
-    width: 30vmax;
-    --line-height: 1.5;
-  --lines-to-show: 5;
-  line-height: var(--line-height);
-  overflow: hidden;
-  height: calc(var(--line-height) * var(--lines-to-show) * 1em);
-   
-    
-    }
-  .products .pop:nth-child(3){
-     padding: 3%;
-     --line-height: 1.5;
-     --lines-to-show: 5;
-     line-height: var(--line-height);
-     overflow: hidden;
-     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
-    }
-  .products .pop:nth-child(4){
-    top:1vmax;
-    padding:3%;
-    height: 25vmax;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+    }
+  .products .pop:nth-child(3){
+    padding-left:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+    }
+  .products .pop:nth-child(4){
+    padding-left:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
         
       }
   .products .pop:nth-child(5){
-    padding: 2%;
-    height: 10vmax;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .products .pop:nth-child(6){
-         padding:2%;
-         height: 30vmax;
-         --line-height: 1.5;
-         --lines-to-show: 5;
-         line-height: var(--line-height);
-         overflow: hidden;
-         height: calc(var(--line-height) * var(--lines-to-show) * 1em); 
-    }
-  .products .pop:nth-child(7){
-          padding:3%;
-          --line-height: 1.5;
-          --lines-to-show: 5;
-          line-height: var(--line-height);
-          overflow: hidden;
-          height: calc(var(--line-height) * var(--lines-to-show) * 1em);
-    }
-  .products .pop:nth-child(8){
-          padding:3%;
-          width:32vmax;
-          --line-height: 1.5;
-          --lines-to-show: 5;
-          line-height: var(--line-height);
-          overflow: hidden;
-          height: calc(var(--line-height) * var(--lines-to-show) * 1em);
-    }
-  .products .pop:nth-child(9){
-    padding:3%;
-    height: 9vmax;
-    width: 31vmax;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
-    height: calc(var(--line-height) * var(--lines-to-show) * 1em);      
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+    }
+  .products .pop:nth-child(7){
+    padding-left:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+    }
+  .products .pop:nth-child(8){
+    padding-left:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+    }
+  .products .pop:nth-child(9){
+    padding-left:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);  
     }
   .products .pop:nth-child(10){
-          padding: 3%;
-          --line-height: 1.5;
-          --lines-to-show: 5;
-          line-height: var(--line-height);
-          overflow: hidden;
-          height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    padding-left:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .products .pop:nth-child(11){
-          padding: 3%;
-          width: 31vmax;
-          --line-height: 1.5;
-          --lines-to-show: 5;
-          line-height: var(--line-height);
-          overflow: hidden;
-          height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    padding-left:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   
   .products .pop:nth-child(12){
-          padding:3%;
-          --line-height: 1.5;
-          --lines-to-show: 5;
-          line-height: var(--line-height);
-          overflow: hidden;
-          height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    padding-left:3%;
+    --line-height: 1.5;
+    --lines-to-show: 5;
+    line-height: var(--line-height);
+    overflow: hidden;
+    height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .products .pop:nth-child(13){
-    padding:3%;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .products .pop:nth-child(14){
-    padding:3%;
-    height: 9vmax;
-    width: 32vmax;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }      
   .products .pop:nth-child(15){
-    padding:3%;
-    height: 11vmax;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .products .pop:nth-child(16){
-    padding:3%;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .products .pop:nth-child(17){
-    padding:3%;
-    height: 11vmax;
-    width: 32vmax;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .products .pop:nth-child(18){
-    padding:3%;
-    height: 10vmax;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .products .pop:nth-child(19){
-    padding:3%;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .products .pop:nth-child(20){
-    padding:3%;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .products .pop:nth-child(21){
-    padding:3%;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .products .pop:nth-child(22){
-    padding:3%;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .products .pop:nth-child(23){
-    padding:3%;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .products .pop:nth-child(24){
-    padding:3%;
+    padding-left:3%;
     --line-height: 1.5;
     --lines-to-show: 5;
     line-height: var(--line-height);
     overflow: hidden;
     height: calc(var(--line-height) * var(--lines-to-show) * 1em);
+    --max-lines:6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
     }
   .pop p{
-  color:rgb(243, 237, 237);
- 
- 
-   position:relative;
-   
-   width: 30vmax;
-   
-   
+  color:rgb(248, 245, 245);
+
+ position:relative;
+   }
+  .data{
+    margin-top:-5.5%;
   }
+.box{
+top: 5%;
+ margin-left:87%;
+width: 10%;
+
+
+}
+  
   
     
  
