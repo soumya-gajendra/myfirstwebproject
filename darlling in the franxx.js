@@ -534,8 +534,11 @@ fetch('./data.json')
  .then(data => {
   data.forEach( post => {
     list.insertAdjacentHTML('beforeend',`
-      
-      <div class="pop">
+      <div class="hole">
+       <div class="phot">
+     <img src="${post.photo}" alt="">
+     </div>
+    <div class="pop">
                <button class="box" type="button">More</button>
                <div class="data">
                <p class="title">EPISODE:- ${post.Episode}</p>
@@ -543,9 +546,12 @@ fetch('./data.json')
                <p class="summer">SUMMERY:- ${post.summery}</p>
                </div>
               </div>
+              </div>
+             
               `)
   })
  })
+
 // .then(function(data){
 //    let placeholder = document.querySelector(".episode");
 //    let out = "";
